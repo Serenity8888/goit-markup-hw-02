@@ -46,6 +46,21 @@ button {
     border-bottom: 1px solid var(--cornflower);
 }
 
+.nav-logo {
+    color: var(--navyblue);
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 21px;
+    /* 116.667% */
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+}
+
+.iris {
+    color: var(--iris);
+}
+
 .nav-list {
     color: var(--grey);
     width: 1440px;
@@ -53,7 +68,7 @@ button {
 }
 
 .nav-list-item-link {
-    color: var(--grey);
+    color: var(--navyblue);
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
@@ -100,6 +115,10 @@ button {
     line-height: 60px;
 }
 
+.hero-cta:hover {
+    background-color: var(--ocean);
+}
+
 .hero-cta {
     text-transform: capitalize;
     border-radius: 4px;
@@ -138,7 +157,7 @@ button {
 
 .services-title {
     background-color: var(--white);
-    color: var(--grey);
+    color: var(--navyblue);
     font-size: 36px;
     font-style: normal;
     font-weight: 700;
@@ -151,7 +170,7 @@ button {
 
 .team-title {
     background: var(--cloud);
-    color: var(--grey);
+    color: var(--navyblue);
     font-size: 36px;
     font-style: normal;
     font-weight: 700;
@@ -160,7 +179,7 @@ button {
 
 .team-item-name {
     background: var(--cloud);
-    color: var(--slate);
+    color: var(--navyblue);
     font-size: 20px;
     font-style: normal;
     font-weight: 500;
@@ -214,21 +233,12 @@ button {
     border: 1px solid var(--CORNFLOWER);
 }
 
-h3 {
+.feature-item-title {
     background-color: var(--white);
-    color: var(--grey);
+    color: var(--slate);
     font-size: 20px;
     font-style: normal;
     font-weight: 500;
-    line-height: 24px;
-}
-
-p {
-    background-color: var(--white);
-    color: var(--slate);
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
     line-height: 24px;
 }
 
@@ -238,17 +248,18 @@ p {
 }
 
 .footer-link {
-    background-color: var(--grey);
-    color: var(--iris);
+    color: var(--cloud);
     font-family: Raleway;
     font-size: 18px;
     font-style: normal;
     font-weight: 800;
     line-height: 21px;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
 }
 
 .footer-description {
-    background-color: var(--grey);
+    background-color: var(--navyblue);
     color: var(--white);
     font-size: 16px;
     font-style: normal;
